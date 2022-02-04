@@ -14,3 +14,8 @@ img{
   
   align-items: right
 }
+button{
+  padding:10px 15px;
+ border-block-color:darkgreen;
+}
+input{border-color: darkred;
