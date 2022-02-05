@@ -1,2 +1,1 @@
-console.log('Hello World!');
-alert('Har Har Mahadev ॐ नम: शिवाय');
+function calcNumbers(result){ form.displayResult.value=form.displayResult.value+result; }
