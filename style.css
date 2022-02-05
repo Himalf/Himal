@@ -1,5 +1,6 @@
 body {
     font-size: 15pt;
+  background-color:yellow;
 }
 video{
   
@@ -9,7 +10,7 @@ video{
   text-align: top;
 }
 img{
-  height:400px;
+  height:600px;
   width:600px;
   
   align-items: right
@@ -18,4 +19,4 @@ button{
   padding:10px 15px;
  border-block-color:darkgreen;
 }
-input{border-color: darkred;
+input{border-color:red;}
