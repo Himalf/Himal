@@ -44,30 +44,74 @@ Global Workplace Analytics believes that 25-30% of the workforce will remotely b
 </div><hr>
 
 
-<h1 style="background-color: cyan;">Our Teams</h1>
+<h1 style="background-color: cyan;">C program</h1>
 <div class="container">
-  <div style="background-color:black;">
-  <img src="/16216eba-3118-4316-85f8-c2eb28680b5e_khalti_resized.jpg"style="height:80px;width:70px;">
- Name:- Himal Fullel<br>
- post:-CEO of itsolutionhf.netlify.app<br>
- Email;-himal.fullel15@gmail.com</div><hr><hr><hr>
- <div style="background-color:black;">
-   <img src="/FB_IMG_1644311233550.jpg"style="height:80px;width:70px;">
-   Name:- Adarsh kunwar<br>
-   post:-coordinator/host<br>
-   Email:
- </div><hr><hr><hr>
- <div style="background-color:black;">
- <img src="/FB_IMG_1644311201264.jpg"style="height:80px;width:70px;">
- Name:- Sushant Shrestha<br>
- Post:-senior manager/freelancer<br>
- Email:-
-</div><hr><hr><hr>
-<div style="background-color:black">
-  <img src="/Screenshot_20220208-145157_Facebook.jpg" style="height:80px;width:70px;">
-  Name:-Ishwar Bohara<br>
-  Post:manager/full stack developer<br>
-  Email:-
+  <div style="background-color:blue;color:dark-blue;size:20px;line-spacing:3px;">
+  
+//Solution for problem for today is  
+//Write a C program to make a number guessing game.<br>
+//note:-remove all ©️ sign to write this program<br><br>
+#include<©stdio.h><br>
+#include<©stdlib.h><br>
+#include<©️time.h><br>
+#include<©️conio.h><br>
+int main(){<br>
+int number,guess,n;<br>
+srand(time(0));<br>
+number=rand()%100+1;<br>
+printf("\t😀Welcome to game play and enjoy😀\n\n");<br>
+do{
+printf("\t😇Guess number between 1 and 100😇\n\n");<br>
+scanf("%d",&guess);<br>
+if(guess>number)<br>
+printf("\t🤪Lower number please🤨!!\n\n");<br>
+else if(guess<number)<br>
+printf("\t😜Higher number please😬!!\n\n");<br>
+else<br>
+printf("\tCongratulations🎊🎊🥳 guessed in %d attempts!!\n\n",n);<br>
+n++;<br>
+}while(guess!=number);<br>
+printf("\t🤪Thanks for playing have a good day😍!!\n");<br>
+return 0;<br>
+getch();<br>
+}<br><br>
+
+
+//program to find simple interst , area of circle and area of rectangle<br><br>
+
+#include <©️stdio.h><br>
+  #define PI 3.14159<br>
+  int main()<br>
+  {<br>
+  int choice;<br>
+  float principle,Time,rate;<br>
+  float radius,length,breadth;<br>
+  printf("1 = Simple Interest\n2 = area of circle\n3 = area of rectangle\n");<br>
+  scanf("%d",&choice);<br>
+  switch(choice)<br>
+  {<br>
+  case 1:<br>
+  printf("enter principle,time,rate\n");<br>
+  scanf("%f%f%f",&principle,&Time,&rate);<br>
+  printf("the simple interest is %f",(principle*Time*rate)/100);<br>
+  break;<br>
+  case 2:<br>
+  printf("enter radius");<br>
+  scanf("%f",&radius);<br>
+  printf("the area of circle is %f",PI*radius*radius);<br>
+  break;<br>
+  case 3:<br>
+  printf("enter length,breadth");<br>
+  scanf("%f%f",&length,&breadth);<br>
+  printf("the area of rectangle is %f",length*breadth);<br>
+  break;<br>
+  default:<br>
+  printf("invalid input");<br>
+  }<br>
+  return 0;<br>
+  }
+ 
+
 </div><hr><hr><hr>
   <h1 style="background-color:cyan;">About Us</h1>
 <div style="background-color: black;">
