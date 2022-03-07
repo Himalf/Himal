@@ -1,0 +1,1 @@
+alert("vakk mulasaag");
