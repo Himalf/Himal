@@ -1,1 +1,2 @@
-alert("vakk mulasaag");
+//alert("welcome to the website");
+
